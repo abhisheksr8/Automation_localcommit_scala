@@ -102,7 +102,7 @@
       },
       "fabrics" : { },
       "instances" : { },
-      "selected" : "test-instance1-main-one",
+      "selected" : "test_created_via_git",
       "nonEditable" : [ ],
       "isSubscribedPipelineWithPipelineConfigs" : false
     },

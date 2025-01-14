@@ -1,4 +1,4 @@
-package abhishekse2etestsprophecyioteam.projectautomationscalareleaseapi1736839342617.gems
+package projectautomationscalareleaseapi1736839342617
 
 import io.prophecy.gems._
 import io.prophecy.gems.componentSpec.{ColumnsUsage, ComponentSpec}
@@ -13,7 +13,7 @@ class Reformat extends ComponentSpec {
 
   val name: String = "Test_Release_Trigger_Gem"
   val category: String = "Custom"
-  val gemDescription: String = "Edits column names or values using expressions."
+  val gemDescription: String = "Edited Description for release trigger testing"
   val docUrl: String = "https://docs.prophecy.io/low-code-spark/gems/transform/reformat/"
 
   type PropertiesType = ReformatProperties

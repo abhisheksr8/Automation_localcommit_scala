@@ -1,6 +1,6 @@
 name: Project-Automation_scala_RELEASE_API_1737639867999
 description: test random description
-version: 0.0.1
+version: 1.0.0
 author: abhisheks+e2etests@prophecy.io
 language: scala
 buildSystem: ''

@@ -107,7 +107,7 @@
       },
       "fabrics" : { },
       "instances" : { },
-      "selected" : "test-instance1-main-one",
+      "selected" : "test_new_config",
       "nonEditable" : [ ],
       "isSubscribedPipelineWithPipelineConfigs" : false
     },
@@ -325,22 +325,5 @@
     "selectedInputFields" : [ ],
     "isCustomOutputSchema" : false,
     "autoUpdateOnRun" : false
-  },
-  "diagnostics" : [ {
-    "property" : "$.workflow.processes.wfjy395R-f2VmIDorXVNu$$RNephbo3e6QDiDd6zS_bl",
-    "range" : {
-      "start" : {
-        "line" : 0,
-        "character" : 0
-      },
-      "end" : {
-        "line" : 0,
-        "character" : 0
-      }
-    },
-    "severity" : 1,
-    "message" : "Exception when sending request: POST http://scala-schema-analysis-gymy0r.scala.regression2.svc.cluster.local:9101/schemaAnalysis",
-    "tags" : [ ],
-    "relatedInformation" : [ ]
-  } ]
+  }
 }

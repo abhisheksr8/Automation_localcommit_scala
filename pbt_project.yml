@@ -1,0 +1,136 @@
+name: Project-Automation_scala_RELEASE_API_1765916583125
+description: test random description
+version: 0.0.1
+author: abhisheks+e2etests@prophecy.io
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: projectautomationscalareleaseapi1765916583125
+  parentArtefactID: abhishekse2etestsprophecyioteam
+  buildSystem: maven
+  author: null
+  createdAt: '2025-12-16 20:24:48'
+pipelines:
+  pipelines/Pipeline-Automation_RELEASE_API_1765916583125:
+    name: Pipeline-Automation_RELEASE_API_1765916583125
+    description: null
+    author: abhisheks+e2etests@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2025-12-16 20:27:11'
+    datasets:
+      inputs:
+      - datasets/Project-Automation_scala_RELEASE_API_1765916583125_dataSet
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets:
+  datasets/Project-Automation_scala_RELEASE_API_1765916583125_dataSet:
+    name: Project-Automation_scala_RELEASE_API_1765916583125_dataSet
+    description: ''
+    author: abhisheks+e2etests@prophecy.io
+    createdAt: '2025-12-16 20:32:16'
+    mode: batch
+    physicalDatasets:
+      dev:
+        fabricId: 3
+        datasetType: File
+        description: ''
+        author: abhisheks+e2etests@prophecy.io
+        createdAt: '2025-12-16 20:32:16'
+templates: {}
+jobs:
+  jobs/Project-Automation_scala_RELEASE_API_1765916583125_RELEASE_API_JOB:
+    name: Project-Automation_scala_RELEASE_API_1765916583125_RELEASE_API_JOB
+    description: ''
+    fabricUID: 3
+    scheduler:
+      Databricks: {}
+    cloudProvider: null
+    jobSize: small
+    scheduleCron: 0/1 * * ? * * 2090
+    timeout: null
+    alerting:
+      emails: abhisheks+e2etests@prophecy.io
+      onStart: true
+      onSuccess: true
+      onFailure: true
+    pipelines:
+    - pipelines/Pipeline-Automation_RELEASE_API_1765916583125
+    jobClusterMode:
+      clusterMode:
+        Single: {}
+      clusterId: null
+    enabled: null
+    createdAt: '2025-12-16 20:33:32'
+    author: abhisheks+e2etests@prophecy.io
+    models: []
+    sqlProjects: []
+gemContainer:
+  languageVersion: 2.12.15
+  gemLibsVersion: 1.1.26
+  gems:
+    gems/Test_Release_Trigger_Gem:
+      name: Test_Release_Trigger_Gem
+      category: Custom
+      subCategory: ''
+      description: null
+      author: abhisheks+e2etests@prophecy.io
+      mode: batch
+      files:
+      - src/main/scala/abhishekse2etestsprophecyioteam/projectautomationscalareleaseapi1765916583125/gems/Test_Release_Trigger_Gem.scala
+      gemType: ComponentGem
+      dependencies: []
+      createdAt: '2025-12-16 20:29:05'
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2025-12-16 20:24:48'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2025-12-16T20:25:43.478Z'
+  name: ProphecyLibsScala
+  version: 8.16.0-SNAPSHOT
+  createdAt: '2025-12-16T20:24:48.29585Z'
+  type: plibMaven
+  enabled: true
+  entity: Project
+  description: Default dependency for Prophecy Libs
+  scope: Project
+  exclusions: []
+  editable: true
+projectDependencies:
+  '1':
+    projectUID: 1
+    projectName: ProphecySparkBasicsScala
+    repositoryPath: gitUri=http://gitserver:3000/RgJINbmJ_team_2/RgJINbmJ_project_1.git&subPath=
+    version: 0.2.6.6
+    isDefault: true
+    author: null
+    createdAt: '2025-12-16 20:24:18'
+  '2':
+    projectUID: 2
+    projectName: ProphecyWarehouseScala
+    repositoryPath: gitUri=http://gitserver:3000/RgJINbmJ_team_2/RgJINbmJ_project_2.git&subPath=
+    version: 0.0.6
+    isDefault: true
+    author: null
+    createdAt: '2025-12-16 20:24:18'
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
+projectConfigurations: {}

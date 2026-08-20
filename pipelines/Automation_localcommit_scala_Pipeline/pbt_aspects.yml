@@ -4,3 +4,4 @@ pipelineVersion:
 configurations:
 - default
 - test-instance1-main-one
+- test_new_config
